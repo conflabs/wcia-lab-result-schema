@@ -8,7 +8,7 @@ Version control repository for the [Washington Cannabis Integrator's Alliance](h
 
 ## Lab Result Schema
 
-* Lab Result Schema Object [(labResultSchema.json)](labResultSchema.json.json)
+* Lab Result Schema Object [(labResultSchema.json)](labResultSchema.json)
 * Example of a Complete Result [(example.json)](example.json)
 
 ## Table of Contents
