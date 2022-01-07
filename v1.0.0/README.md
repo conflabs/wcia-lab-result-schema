@@ -114,7 +114,8 @@ Ln #  Schema
 ## Status
 * _Field Name:_ **status**
 * _Type:_ **string**
-* _Description:_ ddd
+* _Description:_ 
+    * A _pass|fail_ field indicating the overall pass or failure of the entire lab result.
 * _Legend:_ **Ln 9**
 
 ----------------------------------------
@@ -123,7 +124,7 @@ Ln #  Schema
 * _Field Name:_ **metric_list**
 * _Type:_ **array**
 * _Description:_
-* An array of metrics. Metrics in this context are assays, or lab tests, intended to
+    * An array of metrics. Metrics in this context are assays, or lab tests, intended to
   produce one or more analytes.
 * _Legend:_ **Ln 11**
 
@@ -214,7 +215,7 @@ Ln #  Schema
 * _Field Name:_ **status**
 * _Type:_ **string**
 * _Description:_
-    * A _PASS/FAIL_ indicating an individual analyte's pass or failure status.
+    * A _pass|fail_ field indicating the individual analyte's pass or failure status.
 * _Legend:_ **Ln 23**
 
 ----------------------------------------
