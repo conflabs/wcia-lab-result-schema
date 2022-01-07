@@ -1,0 +1,28 @@
+{
+  "document_name": "string",
+  "document_schema_version": "string",
+  "labresult_id": "string",
+  "sample": {
+    "id": "string"
+  },
+  "coa": "string",
+  "status": "string",
+  "metric_list": [
+    {
+      "test_id": "string",
+      "test_type": "string",
+      "status": "string",
+      "metrics": [
+        {
+          "id": "string",
+          "name": "string",
+          "analyte_type": "string",
+          "qom": "string",
+          "uom": "string",
+          "status": "string"
+        }
+      ]
+    }
+  ],
+  "meta": {}
+}
