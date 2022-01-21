@@ -1,7 +1,7 @@
 [
   {
     "document_name": "WCIA Lab Result Schema",
-    "document_schema_version": "1.0.0.0",
+    "document_schema_version": "1.1.0.0",
     "labresult_id": "WA-211031-999",
     "coa": "https://certs.conflabs.com/full/WA-Dxy1BcGlulDf-WA-211031-999.pdf",
     "sample": {
