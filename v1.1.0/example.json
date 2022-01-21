@@ -5,7 +5,8 @@
     "labresult_id": "WA-211031-999",
     "coa": "https://certs.conflabs.com/full/WA-Dxy1BcGlulDf-WA-211031-999.pdf",
     "sample": {
-      "id": "3d7e540ad1b5464384bd4aa27f01701d"
+      "id": "3d7e540ad1b5464384bd4aa27f01701d",
+      "sample_source_id": "fd5e646ad3b8454483bc7ab34f21003f"
     },
     "status": "pass",
     "metric_list": [

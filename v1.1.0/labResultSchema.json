@@ -3,7 +3,8 @@
   "document_schema_version": "string",
   "labresult_id": "string",
   "sample": {
-    "id": "string"
+    "id": "string",
+    "sample_source_id": "string"
   },
   "coa": "string",
   "status": "string",

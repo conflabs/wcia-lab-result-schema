@@ -27,29 +27,30 @@ Ln #  Schema
 3.      "document_schema_version": "string", 
 4.      "labresult_id": "string",            
 5.      "sample": {                          
-6.        "id": "string"                     
-7.      },                                   
-8.      "coa": "string",                     
-9.      "status": "string",                  
-10.     "metric_list": [                     
-11.       {                                  
-12.         "test_id": "string",             
-13.         "test_type": "string",           
-14.         "status": "nullable bool",       
-15.         "metrics": [                     
-16.           {                              
-17.             "id": "string",              
-18.             "name": "string",            
-19.             "analyte_type": "string",    
-20.             "qom": "string",             
-21.             "uom": "string",             
-22.             "status": "nullable bool"    
-23.           }                              
-24.         ]                                
-25.       }                                  
-26.     ],                                   
-27.     "meta": {}                           
-28.   }                                      
+6.        "id": "string",  
+7.        "sample_source_id": "string"  
+8.      },                                   
+9.      "coa": "string",                     
+10.      "status": "string",                  
+11.     "metric_list": [                     
+12.       {                                  
+13.         "test_id": "string",             
+14.         "test_type": "string",           
+15.         "status": "nullable bool",       
+16.         "metrics": [                     
+17.           {                              
+18.             "id": "string",              
+19.             "name": "string",            
+20.             "analyte_type": "string",    
+21.             "qom": "string",             
+22.             "uom": "string",             
+23.             "status": "nullable bool"    
+24.           }                              
+25.         ]                                
+26.       }                                  
+27.     ],                                   
+28.     "meta": {}                           
+29.   }                                      
 ```
 
 # Fields Guide
@@ -88,16 +89,26 @@ Ln #  Schema
 * _Type:_ **object**
 * _Description:_
     * An object containing properties associated with the sample transfer.
-* _Legend:_ **Ln 6**
+* _Legend:_ **Ln 5**
 
 ----------------------------------------
 
 ## Sample -> ID
 * _Field Name:_**id**
-* _Type:_ **strain**
+* _Type:_ **string**
 * _Description:_
     * A property of the Sample object, ID is the identifier representing the inventory lot
       from which the sample was taken.
+* _Legend:_ **Ln 6
+
+----------------------------------------
+
+## Sample -> Sample Source ID
+* _Field Name:_**sample_source_id**
+* _Type:_ **string**
+* _Description:_
+  * A property of the Sample object, `sample_source_id` is an identifier representing the source lot
+    from which the sample was taken.
 * _Legend:_ **Ln 7
 
 ----------------------------------------
