@@ -1,9 +1,12 @@
 # wcia-lab-result-schema
 Version control repository for the [Washington Cannabis Integrator's Alliance](https://www.cannabisintegratorsalliance.com/) Lab Result Schema.  
 
-## Current Version 1.1.0
+## Current Version 1.2.0
 
 ----------------------------------------
+
+### New Sample Object Property
+- Get the descriptive guide here: [(README.md)](/v1.2.0/README.md)
 
 ### Lab Result Documentation
 - Get the descriptive guide here: [(README.md)](/v1.1.0/README.md)
