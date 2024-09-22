@@ -2,13 +2,13 @@
 Version control repository for the [Washington Cannabis Integrator's Alliance](https://www.cannabisintegratorsalliance.com/) Lab Result Schema.
 [https://www.cannabisintegratorsalliance.com/](https://www.cannabisintegratorsalliance.com/)
 
-### Version 2.1.0
+### Version 2.2.0
 
 ----------------------------------------
 
 ## Lab Result Schema
 
-* Lab Result Schema Object [(labResultSchema.json)](labResultSchema.json.json)
+* Lab Result Schema Object [(labResultSchema.json)](labResultSchema.json)
 * Example of a Complete Result [(example.json)](example.json)
 
 ## Table of Contents
@@ -39,25 +39,26 @@ Ln #  Schema
 15.     "amended_date": "2022-10-04",
 16.     "expire_date": "2023-10-04",
 17.     "status": "string",                  
-18.     "metric_list": [                     
-19.       {                                  
-20.         "test_id": "string",             
-21.         "test_type": "string",           
-22.         "status": "nullable bool",       
-23.         "metrics": [                     
-24.           {                              
-25.             "id": "string",              
-26.             "name": "string",            
-27.             "analyte_type": "string",    
-28.             "qom": "string",             
-29.             "uom": "string",             
-30.             "status": "nullable bool"    
-31.           }                              
-32.         ]                                
-33.       }                                  
-34.     ],                                   
-35.     "meta": {}                           
-36.   }                                      
+18.     "is_medical": "bool",                  
+19.     "metric_list": [                     
+20.       {                                  
+21.         "test_id": "string",             
+22.         "test_type": "string",           
+23.         "status": "nullable bool",       
+24.         "metrics": [                     
+25.           {                              
+26.             "id": "string",              
+27.             "name": "string",            
+28.             "analyte_type": "string",    
+29.             "qom": "string",             
+30.             "uom": "string",             
+31.             "status": "nullable bool"    
+32.           }                              
+33.         ]                                
+34.       }                                  
+35.     ],                                   
+36.     "meta": {}                           
+37.   }                                      
 ```
 
 # Fields Guide
@@ -195,8 +196,17 @@ Ln #  Schema
 ## Status
 * _Field Name:_ **status**
 * _Type:_ **string**
-* _Description:_ ddd
+* _Description:_ 
 * _Legend:_ **Ln 17**
+
+----------------------------------------
+
+## Is Medical
+* _Field Name:_ **is_medical**
+* _Type:_ **bool**
+* _Description:_
+  * A boolean value of Zero for false and One for true, indicating whether the result is for medical use.
+* _Legend:_ **Ln 18**
 
 ----------------------------------------
 
@@ -206,7 +216,7 @@ Ln #  Schema
 * _Description:_
 * An array of metrics. Metrics in this context are assays, or lab tests, intended to
   produce one or more analytes.
-* _Legend:_ **Ln 18**
+* _Legend:_ **Ln 19**
 
 ----------------------------------------
 
@@ -215,7 +225,7 @@ Ln #  Schema
 * _Type:_ **string**
 * _Description:_
     * A unique identifier used by labs to distinguish a metric / assay / test type.
-* _Legend:_ **Ln 20**
+* _Legend:_ **Ln 21**
 
 ----------------------------------------
 
@@ -224,7 +234,7 @@ Ln #  Schema
 * _Type:_ **string**
 * _Description:_
     * A name describing the metric / assay / test type.
-* _Legend:_ **Ln 21**
+* _Legend:_ **Ln 22**
 
 ----------------------------------------
 
@@ -234,7 +244,7 @@ Ln #  Schema
 * _Description:_
     * A _pass|fail_ field indicating the overall pass or failure of a metric / assay /
       test.
-* _Legend:_ **Ln 22**
+* _Legend:_ **Ln 23**
 
 ----------------------------------------
 
@@ -243,7 +253,7 @@ Ln #  Schema
 * _Type:_ **array**
 * _Description:_
     * A list of metrics, or analytes, produced by a metric / assay / test.
-* _Legend:_ **Ln 23**
+* _Legend:_ **Ln 24**
 
 ----------------------------------------
 ### Metric -> Metrics -> id
@@ -251,7 +261,7 @@ Ln #  Schema
 * _Type:_ **string**
 * _Description:_
     * A unique identifier, assigned by the lab, to distinguish an analyte from others.
-* _Legend:_ **Ln 25**
+* _Legend:_ **Ln 26**
 
 ----------------------------------------
 
@@ -260,7 +270,7 @@ Ln #  Schema
 * _Type:_ **string**
 * _Description:_
     * A name describing an analyte under review.
-* _Legend:_ **Ln 26**
+* _Legend:_ **Ln 27**
 
 ----------------------------------------
 
@@ -269,7 +279,7 @@ Ln #  Schema
 * _Type:_ **string**
 * _Description:_
     * A categorical description of an analyte.
-* _Legend:_ **Ln 27**
+* _Legend:_ **Ln 28**
 
 ----------------------------------------
 
@@ -278,7 +288,7 @@ Ln #  Schema
 * _Type:_ **string**
 * _Description:_
     * Quantity of Measure; the quantity, or amount, measured.
-* _Legend:_ **Ln 28**
+* _Legend:_ **Ln 29**
 
 ----------------------------------------
 
@@ -287,7 +297,7 @@ Ln #  Schema
 * _Type:_ **string**
 * _Description:_
     * Unit of Measure; the standardized unit used to gauge any physical property.
-* _Legend:_ **Ln 29**
+* _Legend:_ **Ln 30**
 
 ----------------------------------------
 
@@ -296,7 +306,7 @@ Ln #  Schema
 * _Type:_ **string**
 * _Description:_
     * A _PASS/FAIL_ indicating an individual analyte's pass or failure status.
-* _Legend:_ **Ln 30**
+* _Legend:_ **Ln 31**
 
 ----------------------------------------
 
@@ -305,7 +315,7 @@ Ln #  Schema
 * _Type:_ **object**
 * _Description:_
     * An object intended to include meta data regarding the Lab result object.
-* _Legend:_ **Ln 35**
+* _Legend:_ **Ln 36**
 
 
 ### Resources

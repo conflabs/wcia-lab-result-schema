@@ -1,7 +1,7 @@
 [
   {
     "document_name": "WCIA Lab Result Schema",
-    "document_schema_version": "2.1.0",
+    "document_schema_version": "2.0.0",
     "document_origin": "https://certs.conflabs.com/wcia/v1/WA-Dxy1BcGlulDf-WA-211031-999.json",
     "lab_name": "Confidence Analytics",
     "lab_ubi_license": "9876543210",
@@ -16,6 +16,7 @@
       "sample_source_id": "fd5e646ad3b8454483bc7ab34f21003f"
     },
     "status": "pass",
+    "is_medical": 1,
     "metric_list": [
       {
         "test_id": "72d1e79b-fae5-4749-913b-068ceb88562a",
