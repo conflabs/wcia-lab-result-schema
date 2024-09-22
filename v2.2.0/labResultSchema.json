@@ -1,0 +1,37 @@
+{
+  "document_name": "string",
+  "document_schema_version": "string",
+  "document_origin": "string",
+  "lab_name": "string",
+  "lab_ubi_license": "string",
+  "lab_ccrs_license": "string",
+  "labresult_id": "string",
+  "sample": {
+    "id": "string",
+    "sample_source_id": "string"
+  },
+  "coa": "string",
+  "release_date": "string|null",
+  "amended_date": "string|null",
+  "expire_date": "string|null",
+  "status": "string",
+  "is_medical": "bool[0,1]",
+  "metric_list": [
+    {
+      "test_id": "string",
+      "test_type": "string",
+      "status": "string",
+      "metrics": [
+        {
+          "id": "string",
+          "name": "string",
+          "analyte_type": "string",
+          "qom": "string",
+          "uom": "string",
+          "status": "string"
+        }
+      ]
+    }
+  ],
+  "meta": {}
+}
