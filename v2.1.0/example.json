@@ -1,7 +1,7 @@
 [
   {
     "document_name": "WCIA Lab Result Schema",
-    "document_schema_version": "2.0.0",
+    "document_schema_version": "2.1.0",
     "document_origin": "https://certs.conflabs.com/wcia/v1/WA-Dxy1BcGlulDf-WA-211031-999.json",
     "lab_name": "Confidence Analytics",
     "lab_ubi_license": "9876543210",

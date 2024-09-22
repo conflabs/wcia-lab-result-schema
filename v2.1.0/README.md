@@ -142,7 +142,7 @@ Ln #  Schema
 * _Description:_
     * A property of the Sample object, ID is the identifier representing the inventory lot
       from which the sample was taken.
-* _Legend:_ **Ln 11
+* _Legend:_ **Ln 10
 
 ----------------------------------------
 
@@ -152,7 +152,7 @@ Ln #  Schema
 * _Description:_
   * A property of the Sample object, `sample_source_id` is an identifier representing the source lot
     from which the sample was taken.
-* _Legend:_ **Ln 13
+* _Legend:_ **Ln 11
 
 ----------------------------------------
 
@@ -196,7 +196,7 @@ Ln #  Schema
 * _Field Name:_ **status**
 * _Type:_ **string**
 * _Description:_ ddd
-* _Legend:_ **Ln 16**
+* _Legend:_ **Ln 17**
 
 ----------------------------------------
 
@@ -206,7 +206,7 @@ Ln #  Schema
 * _Description:_
 * An array of metrics. Metrics in this context are assays, or lab tests, intended to
   produce one or more analytes.
-* _Legend:_ **Ln 17**
+* _Legend:_ **Ln 18**
 
 ----------------------------------------
 
@@ -234,7 +234,7 @@ Ln #  Schema
 * _Description:_
     * A _pass|fail_ field indicating the overall pass or failure of a metric / assay /
       test.
-* _Legend:_ **Ln 19**
+* _Legend:_ **Ln 22**
 
 ----------------------------------------
 
@@ -243,7 +243,7 @@ Ln #  Schema
 * _Type:_ **array**
 * _Description:_
     * A list of metrics, or analytes, produced by a metric / assay / test.
-* _Legend:_ **Ln 22**
+* _Legend:_ **Ln 23**
 
 ----------------------------------------
 ### Metric -> Metrics -> id
