@@ -3,6 +3,10 @@ Change notes summarizing adopted changes between versioning events.
 
 ----------------------------------------
 
+## [v2.2.0 (2024-06-06)](https://github.com/conflabs/wcia-lab-result-schema/tree/v2.2.0), [Version Diff](https://github.com/conflabs/wcia-lab-result-schema/compare/v2.2.0...v2.1.0)
+- `document_schema_version` bump
+- `is_medical` added to the root object
+
 ## [v2.1.0 (2022-09-02)](https://github.com/conflabs/wcia-lab-result-schema/tree/v2.1.0), [Version Diff](https://github.com/conflabs/wcia-lab-result-schema/compare/v2.1.0...v2.0.0)
 - `document_schema_version` bump
 - `release_date` added to the root object
